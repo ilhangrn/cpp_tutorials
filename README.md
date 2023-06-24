@@ -26,10 +26,18 @@ for instance:
 
 `docker run --name cpp_container -v C:\Users\ilhan.goren\IG_OnePiece\_IG_DOCKER\cpp_tutorials:/cpp_tutorials -it cpp_tutorials`
 
+> ig_notes:The 3. step is for the container you have. In next time i will call just the 3. command.
 ### 3. Starting an existing container
 If you have already created a container from the docker image, you can start it with:
 
 `docker start -i cpp_container`
+
+> After getting run the container we go to the vscode and attach the container over docker extention. Like i do now. I am changing the readme inside container over vscode. Lets see the commit from my PC powershell.
+
+> git diff says:
+
+`+> After getting run the container we go to the vscode and attach the container over docker extention. Like i do now. I am changing the readme inside container over vscode. Lets see the commit from my PC powershell.
+`
 
 ### 4. Removing  unnecessary images and containers
 You can remove unnecessary images and containers by:
